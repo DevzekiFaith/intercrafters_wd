@@ -2,32 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    height: 1200px;
+}
+.Nav_work {
+    font-family: var(--font-poppins);
+}
+.Nav_work:hover {
+    color: var(--color-blue);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* ACTIVE LINKS */
+
+.Nav_work:active {
+    color: var(--color-blue);
+}
+.Nav_work:focus {
+    color: var(--color-blue);
+}
+.Nav_work:visited {
+    color: var(--color-blue);
+}
+.Nav_work:link {
+    color: var(--color-blue);
+}
+.Nav_work:target {
+    color: var(--color-blue);
+}
+.Nav_work:visited {
+    color: var(--color-blue);
+}
+.Nav_work:visited:hover {
+    color: var(--color-blue);
+}
+.Nav_work:visited:active {
+    color: var(--color-blue);
 }

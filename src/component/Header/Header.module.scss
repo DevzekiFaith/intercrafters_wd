@@ -1,0 +1,29 @@
+.header {
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 3rem;
+    position: fixed;
+    top: 6rem;
+    right: 2rem;
+    padding: 12px;
+}
+.next {
+    color: white;
+}
+
+// Not used yet
+.navBar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.Nav_work {
+    font-family: var(--font-poppins);
+}
